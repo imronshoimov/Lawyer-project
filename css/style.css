@@ -9,4 +9,15 @@
 body {
   font-family: 'Caladea', sans-serif;
 }
+
+.appointment {
+  color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.appointment:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
 /*# sourceMappingURL=style.css.map */
