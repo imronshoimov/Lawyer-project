@@ -55,6 +55,39 @@ body {
   width: 65%;
 }
 
+.quality__card1, .quality__card2, .quality__card3 {
+  border-radius: 10px;
+}
+
+.quality__card1 {
+  background-image: url("../img/oval1.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+
+.quality__card2 {
+  background-image: url("../img/oval2.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+
+.quality__card3 {
+  background-image: url("../img/oval3.png");
+  background-repeat: no-repeat;
+  background-size: 120px;
+}
+
+.card__section__subtext {
+  color: rgba(0, 0, 0, 0.3);
+  line-height: 1.6;
+}
+
+@media (max-width: 760px) {
+  .bg-img {
+    display: none;
+  }
+}
+
 @media (max-width: 576px) {
   .lawyer--content__section {
     width: 90%;
