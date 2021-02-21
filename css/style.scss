@@ -86,10 +86,18 @@ body {
     line-height: 1.6;
 }
 
+.service {
+    background-color: #F9E5E1;
+}
+
 .service__content__subtext {
     font-size: 17px;
     width: 80%;
     color: rgba(0,0,0,0.5);
+}
+
+.appointment1 {
+    width: 10%;
 }
 
 @media (max-width: 760px){
