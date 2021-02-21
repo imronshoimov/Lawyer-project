@@ -55,6 +55,10 @@ body {
   width: 65%;
 }
 
+.card__section {
+  margin: 0 auto;
+}
+
 .quality__card1, .quality__card2, .quality__card3 {
   border-radius: 10px;
 }
